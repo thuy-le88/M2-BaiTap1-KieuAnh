@@ -16,5 +16,7 @@ public class TestBook {
 
         System.out.println(ficBook1+"\n"+ficBook2+"\n"+ficBook3+"\n"+ficBook4+"\n"+ficBook5+"\n"
                 +proBook1+"\n"+proBook2+"\n"+proBook3+"\n"+proBook4+"\n"+proBook5+"\n");
+        System.out.println("Total price of 10 books is: "+(ficBook1.getPrice()+ficBook2.getPrice()+ficBook3.getPrice()+ficBook4.getPrice()+ficBook5.getPrice()
+        +proBook1.getPrice()+proBook2.getPrice()+proBook3.getPrice()+proBook4.getPrice()+proBook5.getPrice()));
     }
 }
